@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recursos",
+  "info": {
+    "name": "recurso",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "enlaces": {
+      "type": "json"
+    },
+    "idEbw": {
+      "type": "integer"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "libro"
+      ]
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "recursos",
+      "dominant": true
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "fechaPersa": {
+      "type": "string"
+    }
+  }
+}

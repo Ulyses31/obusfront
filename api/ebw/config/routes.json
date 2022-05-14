@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+        "method": "GET",
+        "path": "/ebw/tags",
+        "handler": "ebw.getTags"
+      },
+      {
+        "method": "GET",
+        "path": "/ebw/getRecursos/:idEbw",
+        "handler": "ebw.getRecursos"
+      },
+      {
+        "method": "GET",
+        "path":"/ebw/getAllRecursos",
+        "handler":"ebw.getAllRecursos"
+      },
+      {
+        "method":"POST",
+        "path":"/ebw/testFecha",
+        "handler":"ebw.testFecha"
+      },
+      {
+        "method": "GET",
+        "path":"/ebw/downloadLinks/:idEbw",
+        "handler":"ebw.downloadLinks"
+      }
+  ]
+}

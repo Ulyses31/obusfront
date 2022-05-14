@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "libros",
+  "info": {
+    "name": "Libro",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    }
+  }
+}

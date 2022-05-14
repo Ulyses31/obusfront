@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enlace_descargados",
+  "info": {
+    "name": "EnlaceDescargado"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "enlace": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/enlace-descargados",
+      "handler": "enlace-descargado.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enlace-descargados/count",
+      "handler": "enlace-descargado.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enlace-descargados/:id",
+      "handler": "enlace-descargado.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/enlace-descargados",
+      "handler": "enlace-descargado.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/enlace-descargados/:id",
+      "handler": "enlace-descargado.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/enlace-descargados/:id",
+      "handler": "enlace-descargado.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
